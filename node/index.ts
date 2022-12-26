@@ -2,7 +2,7 @@ import express, { Express, Router, Request, Response } from "express";
 import axios from "axios";
 const app: Express = express();
 app.use("*", (req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*"); //跨域问题---》！！！！！
+  res.header("Access-Control-Allow-Origin", "*"); //!跨域问题---》！！！！！【怎么实现跨域】
   next();
 });
 const router: Router = express.Router();
@@ -42,6 +42,8 @@ router.get("/list2", async (req: Request, res: Response) => {
   });
 });
 
+
+// 端口--总接口
 app.listen(3333, () => {
   console.log("success server http://localhost:3333");
 });

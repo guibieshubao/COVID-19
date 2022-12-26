@@ -39,7 +39,6 @@
       </div>
       <div class="map">
         <div class="chart">
-          <el-button>切换</el-button>
           <Round></Round>
           <!-- <WordRound></WordRound> -->
           <div>其他</div>
@@ -52,7 +51,7 @@
     <!-- 右 -->
     <div class="column">
       <div class="panel bar">
-        <h2>国外疫情 <a href="javascript:;">2022</a></h2>
+        <h2>国外疫情 <a href="javascript:;"></a></h2>
         <div class="chart"><Add-CarD></Add-CarD></div>
         <div class="panel-footer"></div>
       </div>

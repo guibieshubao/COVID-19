@@ -1,3 +1,4 @@
+// 后端接口：把数据都存放在这个vuex
 import { defineStore } from "pinia";
 import { getAPiList, getApiGDList, getWorldList } from "@/server";
 import type {

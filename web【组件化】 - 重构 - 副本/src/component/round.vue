@@ -201,6 +201,8 @@ onMounted(async () => {
   height: 90%;
   //   居中
 
-  
 }
 </style>
+全局或者局部 引用Ts并通过tsc -v 查看版本号 ts安装成功，这里我直接在项目中 yarn add typescript
+npm install -g typescript
+yarn add -g typescript（需要添加环境变量后 tsc-v生效）
