@@ -1,0 +1,6 @@
+前端：npm i  安装依赖 ，npm run serve
+后端：先建数据库 vue_store,账号root,密码root,如果自己的数据库账号密码不一样就在db文件下seq.js下改成你自己的
+后端运行 npm i 安装依赖，npm run dev,运行后数据库会自己生成表（如果没有表刷新一下，还没有就是数据库连接失败）
+群聊需要单独运行那个server.js文件 ，运行方式 :node server.js
+
+
